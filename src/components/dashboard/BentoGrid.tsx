@@ -11,7 +11,7 @@ export async function BentoGrid() {
     <MotionContainer>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-4">
         <MotionItem>
-          <HeroTile userName="Alex" streak={12} />
+          <HeroTile userName="Hareesh" streak={12} />
         </MotionItem>
         <MotionItem>
           <ActivityTile />
