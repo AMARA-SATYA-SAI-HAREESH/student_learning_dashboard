@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  padding: 0;
+}
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    @apply bg-black text-white;
+  }
+}
+
+@layer components {
+  .bento-card {
+    @apply rounded-2xl border border-white/10 bg-gray-900/50 backdrop-blur-sm;
+  }
+}
